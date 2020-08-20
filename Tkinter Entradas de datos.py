@@ -5,7 +5,7 @@ from tkinter import *
 Raiz = Tk()
 Raiz.title("Ingrese sus datos")
 
-miFrame = Frame(Raiz, width=800, height=450)
+miFrame = Frame(Raiz, width=800, height=550)
 miFrame.pack()
 
 cuadroNombre = Entry(miFrame)
