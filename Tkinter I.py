@@ -7,8 +7,6 @@ raiz.title("Ventana de prueba")
 #  raiz.resizable(False, False)
 #  raiz.geometry("650x350")
 raiz.config(bg="yellow")  # "bg" es por background
-#  raiz.iconbitmap('~/Documents/Cursos/CursoPython/Imagenes Py/Iconos/snowflake-4-64.ico')
-
 
 MiFrame = Frame(raiz, width=750, height=400, )
 MiFrame.pack(fill="x", expand="True")
