@@ -8,8 +8,7 @@ Raiz.title("Ingrese sus datos")
 miFrame = Frame(Raiz, width=800, height=550)
 miFrame.pack()
 
-
-miNombre=StringVar()
+miNombre = StringVar()
 
 cuadroNombre = Entry(miFrame, textvariable=miNombre)
 # cuadroNombre.place(x=100, y=100)
@@ -43,8 +42,10 @@ psswLabel.grid(row=3, column=0, sticky="e", padx=10, pady=10)
 comentLabel = Label(miFrame, text="Comentario:")
 comentLabel.grid(row=4, column=0, sticky="e", padx=10, pady=10)
 
+
 def codigoBottom():
     miNombre.set('Demian')
+
 
 botonEnvio = Button(Raiz, text="Enviar", command=codigoBottom)
 botonEnvio.pack()
